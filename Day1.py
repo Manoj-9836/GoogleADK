@@ -5,7 +5,7 @@ from google.adk.runners import InMemoryRunner
 from google.adk.tools import google_search
 from google.genai import types
 
-GOOGLE_API_KEY = "AIzaSyD-Sf0VgI4Mmgi9GRD0OVb0HNS2FN4ycU4"
+GOOGLE_API_KEY = "GOOGLE_API_KEY"
 
 # Seting up the key for the SDK
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
