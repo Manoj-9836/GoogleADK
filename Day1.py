@@ -9,9 +9,9 @@ GOOGLE_API_KEY = "GOOGLE_API_KEY"
 
 # Seting up the key for the SDK
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-print("✅ Gemini API key setup completed.")
+print("Gemini API key setup completed.")
 
-print("✅ ADK components imported successfully.")
+print("ADK components imported successfully.")
 
 # Creating the root agent
 root_agent = Agent(
@@ -22,12 +22,12 @@ root_agent = Agent(
     tools=[google_search],
 )
 
-print("✅ Root Agent defined.")
+print("Root Agent defined.")
 
 async def main():
     """Asynchronously runs the agent and prints the response."""
     runner = InMemoryRunner(agent=root_agent)
-    print("✅ Runner created.")
+    print("Runner created.")
     response = await runner.run_debug(
         "What is Agent Development Kit from Google? What languages is the SDK available in?"
     )
