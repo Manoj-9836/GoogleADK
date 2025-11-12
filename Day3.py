@@ -1,6 +1,3 @@
-# ==========================================================
-# 🌟 GOOGLE ADK FULL DEMO SCRIPT (ASYNCHRONOUS VERSION)
-# ==========================================================
 import os
 import sqlite3
 import asyncio
